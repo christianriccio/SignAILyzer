@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA61845927691A48000EB12A /* RoadSignClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA61845827691A47000EB12A /* RoadSignClassifier.mlmodel */; };
+		AA618476276A5C50000EB12A /* spotlight120.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845C276A5C50000EB12A /* spotlight120.png */; };
+		AA618477276A5C50000EB12A /* ipad76.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845D276A5C50000EB12A /* ipad76.png */; };
+		AA618478276A5C50000EB12A /* notification40.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845E276A5C50000EB12A /* notification40.png */; };
+		AA618479276A5C50000EB12A /* settings87.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845F276A5C50000EB12A /* settings87.png */; };
+		AA61847A276A5C50000EB12A /* spotlight80.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618460276A5C50000EB12A /* spotlight80.png */; };
+		AA61847B276A5C50000EB12A /* mac16.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618461276A5C50000EB12A /* mac16.png */; };
+		AA61847C276A5C50000EB12A /* mac64.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618462276A5C50000EB12A /* mac64.png */; };
+		AA61847D276A5C50000EB12A /* ipadPro167.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618463276A5C50000EB12A /* ipadPro167.png */; };
+		AA61847E276A5C50000EB12A /* ipad152.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618464276A5C50000EB12A /* ipad152.png */; };
+		AA61847F276A5C50000EB12A /* mac256.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618465276A5C50000EB12A /* mac256.png */; };
+		AA618480276A5C50000EB12A /* ipadSettings29.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618466276A5C50000EB12A /* ipadSettings29.png */; };
+		AA618481276A5C50000EB12A /* mac1024.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618467276A5C50000EB12A /* mac1024.png */; };
+		AA618482276A5C50000EB12A /* mac128.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618468276A5C50000EB12A /* mac128.png */; };
+		AA618483276A5C50000EB12A /* iphone120.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618469276A5C50000EB12A /* iphone120.png */; };
+		AA618484276A5C50000EB12A /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = AA61846A276A5C50000EB12A /* Contents.json */; };
+		AA618485276A5C50000EB12A /* ipadNotification20.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61846B276A5C50000EB12A /* ipadNotification20.png */; };
+		AA618486276A5C50000EB12A /* mac512.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61846C276A5C50000EB12A /* mac512.png */; };
+		AA618487276A5C50000EB12A /* ipadSpotlight40.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61846D276A5C50000EB12A /* ipadSpotlight40.png */; };
+		AA618488276A5C50000EB12A /* mac32.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61846E276A5C50000EB12A /* mac32.png */; };
+		AA618489276A5C50000EB12A /* notification60.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61846F276A5C50000EB12A /* notification60.png */; };
+		AA61848A276A5C50000EB12A /* ipadSpotlight80.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618470276A5C50000EB12A /* ipadSpotlight80.png */; };
+		AA61848B276A5C50000EB12A /* settings58.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618471276A5C50000EB12A /* settings58.png */; };
+		AA61848C276A5C50000EB12A /* iphone180.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618472276A5C50000EB12A /* iphone180.png */; };
+		AA61848D276A5C50000EB12A /* appstore1024.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618473276A5C50000EB12A /* appstore1024.png */; };
+		AA61848E276A5C50000EB12A /* ipadSettings58.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618474276A5C50000EB12A /* ipadSettings58.png */; };
+		AA61848F276A5C50000EB12A /* ipadNotification40.png in Resources */ = {isa = PBXBuildFile; fileRef = AA618475276A5C50000EB12A /* ipadNotification40.png */; };
+		AA6E6851275F5B45007B43C6 /* Detect_Road_SiagnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E6850275F5B45007B43C6 /* Detect_Road_SiagnApp.swift */; };
+		AA6E6853275F5B45007B43C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E6852275F5B45007B43C6 /* ContentView.swift */; };
+		AA6E6855275F5B47007B43C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6E6854275F5B47007B43C6 /* Assets.xcassets */; };
+		AA6E6858275F5B47007B43C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6E6857275F5B47007B43C6 /* Preview Assets.xcassets */; };
+		AA6E685A275F5B47007B43C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E6859275F5B47007B43C6 /* Persistence.swift */; };
+		AA6E685D275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA6E685B275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld */; };
+		AA6E68642764C217007B43C6 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E68632764C217007B43C6 /* CameraModel.swift */; };
+		AAC611DB2767551E006DE704 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611DA2767551E006DE704 /* UIImage+Extension.swift */; };
+		AAC611DD2768ACAB006DE704 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611DC2768ACAB006DE704 /* Labels.swift */; };
+		AAC611E42768AEF3006DE704 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611E32768AEF3006DE704 /* CameraView.swift */; };
+		AAC611E62768AF04006DE704 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611E52768AF04006DE704 /* ResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA61845827691A47000EB12A /* RoadSignClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RoadSignClassifier.mlmodel; sourceTree = "<group>"; };
+		AA61845A276A5A6F000EB12A /* Detect-Road-Siagn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Detect-Road-Siagn-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AA61845C276A5C50000EB12A /* spotlight120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight120.png; sourceTree = "<group>"; };
+		AA61845D276A5C50000EB12A /* ipad76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad76.png; sourceTree = "<group>"; };
+		AA61845E276A5C50000EB12A /* notification40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification40.png; sourceTree = "<group>"; };
+		AA61845F276A5C50000EB12A /* settings87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings87.png; sourceTree = "<group>"; };
+		AA618460276A5C50000EB12A /* spotlight80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight80.png; sourceTree = "<group>"; };
+		AA618461276A5C50000EB12A /* mac16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac16.png; sourceTree = "<group>"; };
+		AA618462276A5C50000EB12A /* mac64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac64.png; sourceTree = "<group>"; };
+		AA618463276A5C50000EB12A /* ipadPro167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadPro167.png; sourceTree = "<group>"; };
+		AA618464276A5C50000EB12A /* ipad152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad152.png; sourceTree = "<group>"; };
+		AA618465276A5C50000EB12A /* mac256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac256.png; sourceTree = "<group>"; };
+		AA618466276A5C50000EB12A /* ipadSettings29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSettings29.png; sourceTree = "<group>"; };
+		AA618467276A5C50000EB12A /* mac1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac1024.png; sourceTree = "<group>"; };
+		AA618468276A5C50000EB12A /* mac128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac128.png; sourceTree = "<group>"; };
+		AA618469276A5C50000EB12A /* iphone120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone120.png; sourceTree = "<group>"; };
+		AA61846A276A5C50000EB12A /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		AA61846B276A5C50000EB12A /* ipadNotification20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadNotification20.png; sourceTree = "<group>"; };
+		AA61846C276A5C50000EB12A /* mac512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac512.png; sourceTree = "<group>"; };
+		AA61846D276A5C50000EB12A /* ipadSpotlight40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSpotlight40.png; sourceTree = "<group>"; };
+		AA61846E276A5C50000EB12A /* mac32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac32.png; sourceTree = "<group>"; };
+		AA61846F276A5C50000EB12A /* notification60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification60.png; sourceTree = "<group>"; };
+		AA618470276A5C50000EB12A /* ipadSpotlight80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSpotlight80.png; sourceTree = "<group>"; };
+		AA618471276A5C50000EB12A /* settings58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings58.png; sourceTree = "<group>"; };
+		AA618472276A5C50000EB12A /* iphone180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone180.png; sourceTree = "<group>"; };
+		AA618473276A5C50000EB12A /* appstore1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore1024.png; sourceTree = "<group>"; };
+		AA618474276A5C50000EB12A /* ipadSettings58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSettings58.png; sourceTree = "<group>"; };
+		AA618475276A5C50000EB12A /* ipadNotification40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadNotification40.png; sourceTree = "<group>"; };
+		AA6E684D275F5B45007B43C6 /* SignAILizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignAILizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E6850275F5B45007B43C6 /* Detect_Road_SiagnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detect_Road_SiagnApp.swift; sourceTree = "<group>"; };
+		AA6E6852275F5B45007B43C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA6E6854275F5B47007B43C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6E6857275F5B47007B43C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA6E6859275F5B47007B43C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AA6E685C275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Detect_Road_Siagn.xcdatamodel; sourceTree = "<group>"; };
+		AA6E68632764C217007B43C6 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		AAC611DA2767551E006DE704 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		AAC611DC2768ACAB006DE704 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		AAC611E32768AEF3006DE704 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AAC611E52768AF04006DE704 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6E684A275F5B45007B43C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA61845B276A5C50000EB12A /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				AA61845C276A5C50000EB12A /* spotlight120.png */,
+				AA61845D276A5C50000EB12A /* ipad76.png */,
+				AA61845E276A5C50000EB12A /* notification40.png */,
+				AA61845F276A5C50000EB12A /* settings87.png */,
+				AA618460276A5C50000EB12A /* spotlight80.png */,
+				AA618461276A5C50000EB12A /* mac16.png */,
+				AA618462276A5C50000EB12A /* mac64.png */,
+				AA618463276A5C50000EB12A /* ipadPro167.png */,
+				AA618464276A5C50000EB12A /* ipad152.png */,
+				AA618465276A5C50000EB12A /* mac256.png */,
+				AA618466276A5C50000EB12A /* ipadSettings29.png */,
+				AA618467276A5C50000EB12A /* mac1024.png */,
+				AA618468276A5C50000EB12A /* mac128.png */,
+				AA618469276A5C50000EB12A /* iphone120.png */,
+				AA61846A276A5C50000EB12A /* Contents.json */,
+				AA61846B276A5C50000EB12A /* ipadNotification20.png */,
+				AA61846C276A5C50000EB12A /* mac512.png */,
+				AA61846D276A5C50000EB12A /* ipadSpotlight40.png */,
+				AA61846E276A5C50000EB12A /* mac32.png */,
+				AA61846F276A5C50000EB12A /* notification60.png */,
+				AA618470276A5C50000EB12A /* ipadSpotlight80.png */,
+				AA618471276A5C50000EB12A /* settings58.png */,
+				AA618472276A5C50000EB12A /* iphone180.png */,
+				AA618473276A5C50000EB12A /* appstore1024.png */,
+				AA618474276A5C50000EB12A /* ipadSettings58.png */,
+				AA618475276A5C50000EB12A /* ipadNotification40.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		AA6E6844275F5B45007B43C6 = {
+			isa = PBXGroup;
+			children = (
+				AA61845827691A47000EB12A /* RoadSignClassifier.mlmodel */,
+				AA6E684F275F5B45007B43C6 /* Detect Road Siagn */,
+				AA6E684E275F5B45007B43C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6E684E275F5B45007B43C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E684D275F5B45007B43C6 /* SignAILizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6E684F275F5B45007B43C6 /* Detect Road Siagn */ = {
+			isa = PBXGroup;
+			children = (
+				AA61845A276A5A6F000EB12A /* Detect-Road-Siagn-Info.plist */,
+				AAC611E22768ACDF006DE704 /* Extensions */,
+				AAC611DE2768ACB9006DE704 /* Models */,
+				AAC611E12768ACD6006DE704 /* Scenes */,
+				AAC611E02768ACCD006DE704 /* ViewModel */,
+				AAC611DF2768ACC0006DE704 /* Views */,
+				AA6E6854275F5B47007B43C6 /* Assets.xcassets */,
+				AA6E685B275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld */,
+				AA6E6856275F5B47007B43C6 /* Preview Content */,
+				AA61845B276A5C50000EB12A /* AppIcon.appiconset */,
+			);
+			path = "Detect Road Siagn";
+			sourceTree = "<group>";
+		};
+		AA6E6856275F5B47007B43C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E6857275F5B47007B43C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAC611DE2768ACB9006DE704 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAC611DC2768ACAB006DE704 /* Labels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAC611DF2768ACC0006DE704 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E6852275F5B45007B43C6 /* ContentView.swift */,
+				AAC611E32768AEF3006DE704 /* CameraView.swift */,
+				AAC611E52768AF04006DE704 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAC611E02768ACCD006DE704 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E6859275F5B47007B43C6 /* Persistence.swift */,
+				AA6E68632764C217007B43C6 /* CameraModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAC611E12768ACD6006DE704 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E6850275F5B45007B43C6 /* Detect_Road_SiagnApp.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AAC611E22768ACDF006DE704 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAC611DA2767551E006DE704 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6E684C275F5B45007B43C6 /* SignAILizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E6860275F5B47007B43C6 /* Build configuration list for PBXNativeTarget "SignAILizer" */;
+			buildPhases = (
+				AA6E6849275F5B45007B43C6 /* Sources */,
+				AA6E684A275F5B45007B43C6 /* Frameworks */,
+				AA6E684B275F5B45007B43C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignAILizer;
+			productName = "Detect Road Siagn";
+			productReference = AA6E684D275F5B45007B43C6 /* SignAILizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6E6845275F5B45007B43C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AA6E684C275F5B45007B43C6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = AA6E6848275F5B45007B43C6 /* Build configuration list for PBXProject "SignAILizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6E6844275F5B45007B43C6;
+			productRefGroup = AA6E684E275F5B45007B43C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6E684C275F5B45007B43C6 /* SignAILizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6E684B275F5B45007B43C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA61848E276A5C50000EB12A /* ipadSettings58.png in Resources */,
+				AA61847C276A5C50000EB12A /* mac64.png in Resources */,
+				AA61847E276A5C50000EB12A /* ipad152.png in Resources */,
+				AA618484276A5C50000EB12A /* Contents.json in Resources */,
+				AA618477276A5C50000EB12A /* ipad76.png in Resources */,
+				AA618489276A5C50000EB12A /* notification60.png in Resources */,
+				AA61848A276A5C50000EB12A /* ipadSpotlight80.png in Resources */,
+				AA61847F276A5C50000EB12A /* mac256.png in Resources */,
+				AA618479276A5C50000EB12A /* settings87.png in Resources */,
+				AA618488276A5C50000EB12A /* mac32.png in Resources */,
+				AA618485276A5C50000EB12A /* ipadNotification20.png in Resources */,
+				AA618478276A5C50000EB12A /* notification40.png in Resources */,
+				AA618483276A5C50000EB12A /* iphone120.png in Resources */,
+				AA61848D276A5C50000EB12A /* appstore1024.png in Resources */,
+				AA618486276A5C50000EB12A /* mac512.png in Resources */,
+				AA618487276A5C50000EB12A /* ipadSpotlight40.png in Resources */,
+				AA618481276A5C50000EB12A /* mac1024.png in Resources */,
+				AA61848B276A5C50000EB12A /* settings58.png in Resources */,
+				AA618482276A5C50000EB12A /* mac128.png in Resources */,
+				AA61847A276A5C50000EB12A /* spotlight80.png in Resources */,
+				AA61847B276A5C50000EB12A /* mac16.png in Resources */,
+				AA6E6858275F5B47007B43C6 /* Preview Assets.xcassets in Resources */,
+				AA61848F276A5C50000EB12A /* ipadNotification40.png in Resources */,
+				AA6E6855275F5B47007B43C6 /* Assets.xcassets in Resources */,
+				AA61847D276A5C50000EB12A /* ipadPro167.png in Resources */,
+				AA61848C276A5C50000EB12A /* iphone180.png in Resources */,
+				AA618476276A5C50000EB12A /* spotlight120.png in Resources */,
+				AA618480276A5C50000EB12A /* ipadSettings29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6E6849275F5B45007B43C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E685A275F5B47007B43C6 /* Persistence.swift in Sources */,
+				AAC611DB2767551E006DE704 /* UIImage+Extension.swift in Sources */,
+				AAC611DD2768ACAB006DE704 /* Labels.swift in Sources */,
+				AAC611E42768AEF3006DE704 /* CameraView.swift in Sources */,
+				AA6E685D275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld in Sources */,
+				AAC611E62768AF04006DE704 /* ResultView.swift in Sources */,
+				AA61845927691A48000EB12A /* RoadSignClassifier.mlmodel in Sources */,
+				AA6E68642764C217007B43C6 /* CameraModel.swift in Sources */,
+				AA6E6853275F5B45007B43C6 /* ContentView.swift in Sources */,
+				AA6E6851275F5B45007B43C6 /* Detect_Road_SiagnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA6E685E275F5B47007B43C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA6E685F275F5B47007B43C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6E6861275F5B47007B43C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Detect Road Siagn/Preview Content\"";
+				DEVELOPMENT_TEAM = 9854WSTVY8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Detect-Road-Siagn-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianriccio.Detect-Road-Siagn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6E6862275F5B47007B43C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Detect Road Siagn/Preview Content\"";
+				DEVELOPMENT_TEAM = 9854WSTVY8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Detect-Road-Siagn-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianriccio.Detect-Road-Siagn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6E6848275F5B45007B43C6 /* Build configuration list for PBXProject "SignAILizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E685E275F5B47007B43C6 /* Debug */,
+				AA6E685F275F5B47007B43C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E6860275F5B47007B43C6 /* Build configuration list for PBXNativeTarget "SignAILizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E6861275F5B47007B43C6 /* Debug */,
+				AA6E6862275F5B47007B43C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA6E685B275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA6E685C275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodel */,
+			);
+			currentVersion = AA6E685C275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodel */;
+			path = Detect_Road_Siagn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA6E6845275F5B45007B43C6 /* Project object */;
+}

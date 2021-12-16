@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "17B97A9F-3B99-4E95-87AA-743D5241FFCF": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "7B6F8E60-66A2-4433-8647-E3ECCF893D42": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "ED9A37E2-B4E2-4035-9CE0-99A78D4C14B7": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "roadSignClassification.mlmodel",
+            "path": "com.apple.CoreML/roadSignClassification.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "ED9A37E2-B4E2-4035-9CE0-99A78D4C14B7"
+}
