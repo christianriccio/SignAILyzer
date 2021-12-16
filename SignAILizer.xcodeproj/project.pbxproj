@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA61845927691A48000EB12A /* RoadSignClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA61845827691A47000EB12A /* RoadSignClassifier.mlmodel */; };
 		AA618476276A5C50000EB12A /* spotlight120.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845C276A5C50000EB12A /* spotlight120.png */; };
 		AA618477276A5C50000EB12A /* ipad76.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845D276A5C50000EB12A /* ipad76.png */; };
 		AA618478276A5C50000EB12A /* notification40.png in Resources */ = {isa = PBXBuildFile; fileRef = AA61845E276A5C50000EB12A /* notification40.png */; };
@@ -41,6 +40,7 @@
 		AA6E685A275F5B47007B43C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E6859275F5B47007B43C6 /* Persistence.swift */; };
 		AA6E685D275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA6E685B275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld */; };
 		AA6E68642764C217007B43C6 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E68632764C217007B43C6 /* CameraModel.swift */; };
+		AAC03BA5276B5E5D00134312 /* RoadSignClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAC03BA7276B5E5D00134312 /* RoadSignClassifier.mlmodel */; };
 		AAC611DB2767551E006DE704 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611DA2767551E006DE704 /* UIImage+Extension.swift */; };
 		AAC611DD2768ACAB006DE704 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611DC2768ACAB006DE704 /* Labels.swift */; };
 		AAC611E42768AEF3006DE704 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC611E32768AEF3006DE704 /* CameraView.swift */; };
@@ -48,7 +48,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA61845827691A47000EB12A /* RoadSignClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RoadSignClassifier.mlmodel; sourceTree = "<group>"; };
 		AA61845A276A5A6F000EB12A /* Detect-Road-Siagn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Detect-Road-Siagn-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AA61845C276A5C50000EB12A /* spotlight120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight120.png; sourceTree = "<group>"; };
 		AA61845D276A5C50000EB12A /* ipad76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad76.png; sourceTree = "<group>"; };
@@ -84,6 +83,7 @@
 		AA6E6859275F5B47007B43C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AA6E685C275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Detect_Road_Siagn.xcdatamodel; sourceTree = "<group>"; };
 		AA6E68632764C217007B43C6 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		AAC03BA6276B5E5D00134312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Base; path = Base.lproj/RoadSignClassifier.mlmodel; sourceTree = "<group>"; };
 		AAC611DA2767551E006DE704 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		AAC611DC2768ACAB006DE704 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		AAC611E32768AEF3006DE704 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		AA6E6844275F5B45007B43C6 = {
 			isa = PBXGroup;
 			children = (
-				AA61845827691A47000EB12A /* RoadSignClassifier.mlmodel */,
+				AAC03BA7276B5E5D00134312 /* RoadSignClassifier.mlmodel */,
 				AA6E684F275F5B45007B43C6 /* Detect Road Siagn */,
 				AA6E684E275F5B45007B43C6 /* Products */,
 			);
@@ -321,7 +321,7 @@
 				AAC611E42768AEF3006DE704 /* CameraView.swift in Sources */,
 				AA6E685D275F5B47007B43C6 /* Detect_Road_Siagn.xcdatamodeld in Sources */,
 				AAC611E62768AF04006DE704 /* ResultView.swift in Sources */,
-				AA61845927691A48000EB12A /* RoadSignClassifier.mlmodel in Sources */,
+				AAC03BA5276B5E5D00134312 /* RoadSignClassifier.mlmodel in Sources */,
 				AA6E68642764C217007B43C6 /* CameraModel.swift in Sources */,
 				AA6E6853275F5B45007B43C6 /* ContentView.swift in Sources */,
 				AA6E6851275F5B45007B43C6 /* Detect_Road_SiagnApp.swift in Sources */,
@@ -329,6 +329,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAC03BA7276B5E5D00134312 /* RoadSignClassifier.mlmodel */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC03BA6276B5E5D00134312 /* Base */,
+			);
+			name = RoadSignClassifier.mlmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AA6E685E275F5B47007B43C6 /* Debug */ = {
