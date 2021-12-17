@@ -6,7 +6,7 @@ Tha first time the you will install the app it will ask to allow for camera perm
 - to retake another picture if not satisied;
 - classify the signal identified.
 
-The results of the classification will appear immediatly with the taken picture the name of the signal which the ML model predict and a description of it. Then, is possible to click a play button and the text will be automatically red from the iphone to the user. 
+The results of the classification will appear immediatly with the taken picture the name of the signal which the ML model predict and a description of it. Then, is possible to click a play button and the text will be automatically read from the iphone to the user: this to hel people with visual impairments or maybe help tourists in better understanding signals of a visited country. Think also at someone who wants to refresh his/her knowledge about them or simply helping guys attending the driving school :D. 
 
 The app does not require any internet connection to work and it only weights 4.2 Mb.
 
