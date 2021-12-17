@@ -15,9 +15,41 @@ The ML model runs locally on the iphone, and it alone weight less than 1 Mb !!!
 <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0027.PNG" width="200" height="300">  <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0032 2.PNG" width="200" height="300">  <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0033.PNG" width="200" height="300">  <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0034 2.PNG" width="200" height="300">
 
 
+
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=AVFoundation&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=BDesigned for %20Version&message=IPhone&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+        
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Built for %20Version&message=iOS15&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+
 <a href="#" alt="Swift Version">
         <img src="https://img.shields.io/static/v1?label=Swift%20Version&message=5.5&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+        
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Xcode%20Version&message=13.0+&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
 
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=AVFoundation&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+        
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=CreateML&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=CoreML&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+        
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=SwiftUI&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+
+
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=Foundation&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+
+
+<a href="#" alt="Swift Version">
+        <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=AVFoundation&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
 ## Objectives of the challenge
 
 - Learn individually everything I need to achieve my developers' goals;
