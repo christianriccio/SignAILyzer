@@ -12,6 +12,8 @@ The app does not require any internet connection to work and it only weights 4.2
 
 The ML model runs locally on the iphone, and it alone weight less than 1 Mb !!!
 
+![alt text](https://github.com/[christianriccio]/[SignAILizer]/blob/[main]/IMG_0027.PNG?raw=true)
+
 ## Objectives of the challenge
 
 - Learn individually everything I need to achieve my developers' goals;
@@ -37,3 +39,28 @@ To do so, I decided to reshape the above existing app on the App store responsib
     - Synthetize the text to speech.
 
 
+### Bugs
+
+There are some bugs: 
+ - The first time you install the app in the white screen view a text that should appera in the camera view will appear;
+ - The click button of the camera sometimes don't capure any picture and this will not allow to classify it because the model will not receive data ( before the app creshed but i fixed this) and to do so you have to retake the picture. Whene you are in sound mode on the iphone if you hear the click sound the picture is taken !!!
+ - The model is not accurate but this is due to the lack of data on which the classification algorithm has been trained
+
+### Future improvements 
+- Resolve the above bugs :)
+- Retrive more and more picture on which re-train the model to improve it 
+- Woring on more classes of Italina traffic signs 
+- Itegrate with the traffic sign on other countries
+- Working with cloudKit and coreData
+- Based on the geo-localization of the iphone, a well defined clasification model will be used
+- Insert a zoom button in the camera view
+
+# Usage
+Feel free to use the app and take insipiration from this project (but please cite me smohow :) ). For any suggestion or curiosity or technical stuff feel free to reach me by: 
+
+- e-mail: christian.riccio@unina.it
+- LinkedIn: https://www.linkedin.com/in/christian-riccio-830864169/
+
+To use the app download the whole project, open it with Xcode (v.13.0 +) and made the build on the iphone :D.
+
+You will have a (powerful) ML model in your pocket ready to classify Italian traffic signs, which will run locally on the Iphone's neural engine :D. 
