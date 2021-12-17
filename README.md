@@ -14,7 +14,7 @@ The ML model runs locally on the iphone, and it alone weight less than 1 Mb !!!
 
 <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0027.PNG" width="200" height="300">  <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0032 2.PNG" width="200" height="300">  <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0033.PNG" width="200" height="300">  <img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0034 2.PNG" width="200" height="300">
 
-
+<p align="center">
 
 <a href="#" alt="Swift Version">
         <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=AVFoundation&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
@@ -50,6 +50,8 @@ The ML model runs locally on the iphone, and it alone weight less than 1 Mb !!!
 
 <a href="#" alt="Swift Version">
         <img src="https://img.shields.io/static/v1?label=Framework%20Version&message=AVFoundation&color=brightgreen&logo=swift" alt="Swift Version 5.5"></a>
+        
+</p> 
 ## Objectives of the challenge
 
 - Learn individually everything I need to achieve my developers' goals;
