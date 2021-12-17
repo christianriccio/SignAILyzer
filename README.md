@@ -12,7 +12,7 @@ The app does not require any internet connection to work and it only weights 4.2
 
 The ML model runs locally on the iphone, and it alone weight less than 1 Mb !!!
 
-<img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0027.PNG.type" width="100" height="100">
+<img src="https://github.com/christianriccio/SignAILizer/blob/main/IMG_0027.PNG" width="100" height="100">
 
 ![alt text](https://github.com/christianriccio/SignAILizer/blob/main/IMG_0027.PNG =250x250)
 
