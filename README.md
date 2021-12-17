@@ -21,7 +21,7 @@ The ML model runs locally on the iphone, and it alone weight less than 1 Mb !!!
 - Learn individually everything I need to achieve my developers' goals;
 - Select an App available on the App Store; 
 - Identify the strengths and weaknesses of this app
-- Based on what I want to learn and your path, choose what I want to reproduce as it is and what is convenient to change.
+
 
 # Act 
 To do so, I decided to reshape the above existing app on the App store responsible of classify accross 4k traffic signals belonging to different countries. The challenge lasted for 11 days, during which I: 
