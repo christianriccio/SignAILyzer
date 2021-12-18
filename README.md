@@ -1,4 +1,4 @@
-# SignAILizer <img src="https://github.com/christianriccio/SignAILizer/blob/main/Detect Road Siagn/AppIcon.appiconset/settings87.png" width="100" height="100"> 
+# SignAILizer <img src="https://github.com/christianriccio/SignAILizer/blob/main/Detect Road Siagn/AppIcon.appiconset/settings87.png" width="50" height="50"> 
 
 SignAILizer is a working app project that I developed for NC2 - Vin Brulè at the Apple Developer Academy. The Idea of the challenge was to learn from the success/failure of other App developers. For this reason I inspired SignAILizer to the one that you can find at [here](https://apps.apple.com/it/app/detect-road-sign/id1561498437). Although SignAILizer in this fisrt version is able to classify on 59 classes of Italian traffic signs, the prediction on some of them is not accurate, this is due to the lack of training data at hand. In ML data are crucial, but data retrieving is an hard step, I lost days to found an available DB of immages of Italian roads signs.
 
